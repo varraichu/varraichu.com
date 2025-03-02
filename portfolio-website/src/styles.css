@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.bg-custom {
+    background-image: url('/assets/light_grey_dots_background.jpg');
+    background-size: 200px;
+}

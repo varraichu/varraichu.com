@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { LandingPage } from '../pages/landing-page/landing.component';
 import { Navbar } from '../components/navbar/navbar.component';
 import { AboutMe } from '../pages/about-me/about.component';
@@ -11,7 +11,7 @@ import { Projects } from '../pages/projects/projects.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, LandingPage, AboutMe, Education, Skills, ConnectWithMe, Experience, Projects],
+  imports: [RouterLink, RouterOutlet, LandingPage, AboutMe, Education, Skills, ConnectWithMe, Experience, Projects],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

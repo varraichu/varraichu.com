@@ -4,3 +4,18 @@
     background-image: url('/assets/light_grey_dots_background.jpg');
     background-size: 200px;
 }
+
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-50%); }
+  }
+  
+  .animate-slide {
+    display: inline-block;
+    animation: slide 15s linear infinite;
+  }
+  
+  .animate-slide2 {
+    display: inline-block;
+    animation: slide 15s linear reverse infinite;
+  }

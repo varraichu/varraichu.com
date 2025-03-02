@@ -4,10 +4,11 @@ import { LandingPage } from '../pages/landing-page/landing.component';
 import { Navbar } from '../components/navbar/navbar.component';
 import { AboutMe } from '../pages/about-me/about.component';
 import { Education } from '../pages/education/education.component';
+import { Skills } from '../pages/skills/skills.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, LandingPage, AboutMe, Education],
+  imports: [RouterOutlet, LandingPage, AboutMe, Education, Skills],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

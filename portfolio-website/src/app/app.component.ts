@@ -5,10 +5,11 @@ import { Navbar } from '../components/navbar/navbar.component';
 import { AboutMe } from '../pages/about-me/about.component';
 import { Education } from '../pages/education/education.component';
 import { Skills } from '../pages/skills/skills.component';
+import { ConnectWithMe } from '../pages/connect/connect.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, LandingPage, AboutMe, Education, Skills],
+  imports: [RouterOutlet, LandingPage, AboutMe, Education, Skills, ConnectWithMe],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
